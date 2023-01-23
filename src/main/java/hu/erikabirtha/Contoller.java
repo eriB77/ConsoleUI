@@ -5,10 +5,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class Contoller {
-    //adatbekérés
-
     private VehicleRegisterAPI vehicleRegisterAPI;
-
 
     public void createNewCar(Car car) {
     //json feltöltés, és ezzel beküld
@@ -27,12 +24,12 @@ public class Contoller {
         vehicleRegisterAPI.registerVehicle(jsonObject.toString());
     }
 
-    //validate-nem fontos
-    //parsejson
-    //interactornak küld
     public void registerVehicle(VehicleRegisterAPI vehicleRegisterAPI) {
         this.vehicleRegisterAPI = vehicleRegisterAPI;
 
     }
 
+    public void getVehicleByRegistrationNumber(String registrationNumber) {
+
+    }
 }

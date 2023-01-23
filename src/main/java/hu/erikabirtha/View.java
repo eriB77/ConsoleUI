@@ -10,15 +10,6 @@ public class View {
     public View(Contoller contoller) {
         this.contoller = contoller;
     }
-    //input adat beadás
-//        private void showOptions() {
-//            System.out.println("Choose options!");
-//            System.out.println("Add new vehicle (A), List of the cars by Registration Number (L)");
-//        }
-        //átküld a contollernek
-        //lekérdezés esetén rendszám
-        //kilistázni az adatokat
-        //itt van minden megjelenés
 
     public void showMessage(String message) {
         System.out.println(message);
@@ -70,6 +61,7 @@ public class View {
                 case "L":
                     System.out.println("Enter the registration number");
                     String vehicleRegistrationNumber = scanner.next();
+                    getVehicleFromFile();
 
                     break;
                 default:
@@ -79,4 +71,12 @@ public class View {
             }
         }
 }
+    private void getVehicleFromFile() {
+        String registrationNumber = "";
+        while (registrationNumber.equals("")) {
+            System.out.println("registration number: ");
+            registrationNumber = scanner.next();
+            contoller.getVehicleByRegistrationNumber(registrationNumber);
+        }
+    }
 }
