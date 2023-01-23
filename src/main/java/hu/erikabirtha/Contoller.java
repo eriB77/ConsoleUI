@@ -5,10 +5,6 @@ import hu.erikabirtha.entity.Vehicle;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-
 public class Contoller {
     private VehicleRegisterAPI vehicleRegisterAPI;
 

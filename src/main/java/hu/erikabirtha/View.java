@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class View {
 
     Contoller contoller;
-    private Scanner scanner = new Scanner(System.in);
+    private final Scanner scanner = new Scanner(System.in);
     public View(Contoller contoller) {
         this.contoller = contoller;
     }
@@ -14,11 +14,7 @@ public class View {
     public void showMessage(String message) {
         System.out.println(message);
     }
-    public void showVehicle(Car car) {
-        System.out.println(car);
-        //car property kiírás
-        //metódus ami cart vár el és syst outttal kiiírja
-    }
+
     public void mainLoop() {
         //adatbekérés
         //validate-nem fontos
@@ -28,6 +24,11 @@ public class View {
         System.out.println("Choose options!");
         System.out.println("Add new vehicle (A), List of the cars by Registration Number (L)");
         userInputRun();
+    }
+    public void showVehicle(Car car) {
+        System.out.println(car);
+        //car property kiírás
+        //metódus ami cart vár el és syst outttal kiiírja
     }
     public void userInputRun() {
         boolean consoleIsActive = true;
@@ -70,10 +71,5 @@ public class View {
                     break;
             }
         }
-
-
     }
-
-
-
 }

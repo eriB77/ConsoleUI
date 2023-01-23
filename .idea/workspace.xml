@@ -7,7 +7,6 @@
     <list default="true" id="785060b7-3c0a-4223-8d4c-955ef668422d" name="Changes" comment="display settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/Contoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/Contoller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/UIPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/UIPresenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,20 +40,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +65,8 @@
       <workItem from="1674215842656" duration="9011000" />
       <workItem from="1674316411126" duration="13381000" />
       <workItem from="1674414304976" duration="925000" />
-      <workItem from="1674456687707" duration="23785000" />
+      <workItem from="1674456687707" duration="24686000" />
+      <workItem from="1674504571525" duration="3849000" />
     </task>
     <task id="LOCAL-00001" summary="display settings">
       <created>1674233501097</created>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674485789940</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="display settings">
+      <created>1674493455117</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674493455117</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
