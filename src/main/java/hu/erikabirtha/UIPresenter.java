@@ -1,8 +1,12 @@
 package hu.erikabirtha;
 
-public class UIPresenter implements Display {
 
-    private View view = new View();
+public class UIPresenter implements Display {
+    private View view;
+    public UIPresenter(View view1){
+        this.view = view1;
+    }
+
     @Override
     public void displayVehicle(String s) {
 
