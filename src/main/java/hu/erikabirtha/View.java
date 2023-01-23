@@ -14,9 +14,10 @@ public class View {
     public void showMessage(String message) {
         System.out.println(message);
     }
-    public void showVehicle(Car car){
+    public void showVehicle(Car car) {
+        System.out.println(car);
         //car property kiírás
-
+        //metódus ami cart vár el és syst outttal kiiírja
     }
     public void mainLoop() {
         //adatbekérés
@@ -29,7 +30,6 @@ public class View {
         userInputRun();
     }
     public void userInputRun() {
-        //vehicleRegisterAPI.registerVehicle("ez még nem a json, de ez lesz");
         boolean consoleIsActive = true;
         while (consoleIsActive) {
             String startQuestion = scanner.next();
@@ -61,7 +61,7 @@ public class View {
                 case "L":
                     System.out.println("Enter the registration number");
                     String vehicleRegistrationNumber = scanner.next();
-                    getVehicleFromFile();
+                    contoller.getVehicleByRegisterNumber(vehicleRegistrationNumber);
 
                     break;
                 default:
@@ -70,13 +70,10 @@ public class View {
                     break;
             }
         }
-}
-    private void getVehicleFromFile() {
-        String registrationNumber = "";
-        while (registrationNumber.equals("")) {
-            System.out.println("registration number: ");
-            registrationNumber = scanner.next();
-            contoller.getVehicleByRegistrationNumber(registrationNumber);
-        }
+
+
     }
+
+
+
 }

@@ -1,8 +1,13 @@
 package hu.erikabirtha;
 
 
+import hu.erikabirtha.entity.Vehicle;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class Contoller {
     private VehicleRegisterAPI vehicleRegisterAPI;
@@ -29,7 +34,15 @@ public class Contoller {
 
     }
 
-    public void getVehicleByRegistrationNumber(String registrationNumber) {
+    public void getVehicleByRegisterNumber(String registrationNumber) {
+        //json ob
+        JSONObject jsonObject = new JSONObject();
 
+        try {
+            jsonObject.put("registrationNumber", registrationNumber);
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
+        vehicleRegisterAPI.findByRegistrationNumber(jsonObject.toString());
     }
 }
