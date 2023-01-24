@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785060b7-3c0a-4223-8d4c-955ef668422d" name="Changes" comment="lekérdezés kiiratás">
+    <list default="true" id="785060b7-3c0a-4223-8d4c-955ef668422d" name="Changes" comment="get datas view change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,9 @@
       <workItem from="1674541845347" duration="1093000" />
       <workItem from="1674544282940" duration="3247000" />
       <workItem from="1674551409271" duration="937000" />
-      <workItem from="1674555518540" duration="2509000" />
+      <workItem from="1674555518540" duration="4226000" />
+      <workItem from="1674563350810" duration="4277000" />
+      <workItem from="1674575893639" duration="1319000" />
     </task>
     <task id="LOCAL-00001" summary="display settings">
       <created>1674233501097</created>
@@ -128,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674542875444</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="get datas view change">
+      <created>1674558248121</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674558248121</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="display settings" />
     <MESSAGE value="lekérdezés kiiratás" />
-    <option name="LAST_COMMIT_MESSAGE" value="lekérdezés kiiratás" />
+    <MESSAGE value="get datas view change" />
+    <option name="LAST_COMMIT_MESSAGE" value="get datas view change" />
   </component>
 </project>
