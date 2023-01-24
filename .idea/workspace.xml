@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785060b7-3c0a-4223-8d4c-955ef668422d" name="Changes" comment="display settings">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/erikabirtha/Car.java" afterDir="false" />
-    </list>
+    <list default="true" id="785060b7-3c0a-4223-8d4c-955ef668422d" name="Changes" comment="lekérdezés kiiratás" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +63,7 @@
       <workItem from="1674414304976" duration="925000" />
       <workItem from="1674456687707" duration="24686000" />
       <workItem from="1674504571525" duration="4723000" />
-      <workItem from="1674541845347" duration="701000" />
+      <workItem from="1674541845347" duration="1020000" />
     </task>
     <task id="LOCAL-00001" summary="display settings">
       <created>1674233501097</created>
@@ -110,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674510095371</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lekérdezés kiiratás">
+      <created>1674542831705</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674542831705</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="display settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="display settings" />
+    <MESSAGE value="lekérdezés kiiratás" />
+    <option name="LAST_COMMIT_MESSAGE" value="lekérdezés kiiratás" />
   </component>
 </project>
