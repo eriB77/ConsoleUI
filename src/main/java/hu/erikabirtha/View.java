@@ -27,8 +27,9 @@ public class View {
     }
     public void showVehicle(Car car) {
         System.out.println(car);
+
         //car property kiírás
-        //metódus ami cart vár el és syst outttal kiiírja
+        //metódus ami cart vár el és system out-tal kiiírja
     }
     public void userInputRun() {
         boolean consoleIsActive = true;

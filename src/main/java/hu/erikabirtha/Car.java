@@ -9,12 +9,11 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
-                "registrationNumber='" + registrationNumber + '\'' +
-                ", make='" + make + '\'' +
-                ", model='" + model + '\'' +
-                ", numberOfSeats=" + numberOfSeats +
-                ", vehicleType='" + vehicleType + '\'' +
-                '}';
+        return "Car datas: " +
+                "\nregistration number:'" + registrationNumber + '\'' +
+                ",\nmake:'" + make + '\'' +
+                ",\nmodel:'" + model + '\'' +
+                ",\nnumber of seats:" + numberOfSeats +
+                ",\nvehicle type:'" + vehicleType + '\'';
     }
 }
